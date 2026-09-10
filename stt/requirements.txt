@@ -1,0 +1,11 @@
+# Python dependencies for the stt module
+#
+# Install with:
+#   py pip install -r requirements.txt
+#
+# Note: the 'qi' package (NAOqi Python SDK) usually is NOT installed via pip —
+# it comes from Aldebaran/SoftBank's official Python SDK download, matched to
+# your Pepper's NAOqi version. Install that separately per their docs.
+
+numpy
+faster-whisper
